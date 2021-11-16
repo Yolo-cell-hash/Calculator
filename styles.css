@@ -1,0 +1,142 @@
+body{
+  background: #1B2431;
+  color: #fff;
+  position: relative;
+}
+
+button{
+  color: #fff;
+}
+
+#time{
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* CALCULATOR */
+
+.calculator{
+border-style: solid;
+border-width: 5px;
+height: 33.5rem;
+width: 42%;
+text-align: center;
+top:4rem;
+left: 30rem;
+position: absolute;
+}
+
+.screen{
+  border-style: solid;
+  border-width: 5px;
+  height: 5rem;
+  width: 92%;
+  top: 2rem;
+  left: 1.3rem;
+  position: absolute;
+}
+
+.result{
+  margin-top: 1rem;
+}
+
+.row-1-buttons{
+  border-style: solid;
+  border-width: 5px;
+  height: 3.3rem;
+  width: 6%;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+}
+
+.click{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.one{
+  left: 32.5rem;
+  top: 13rem;
+}
+
+.two{
+top: 13rem;
+left: 42.5rem;
+}
+
+.three{
+  top: 13rem;
+  left: 52.5rem;
+}
+
+.plus{
+  top: 13rem;
+  left: 62rem;
+}
+
+.four{
+  left: 32.5rem;
+  top: 18.5rem;
+}
+
+.five{
+  left: 42.5rem;
+  top: 18.5rem;
+}
+
+.six{
+  left: 52.5rem;
+  top: 18.5rem;
+}
+
+.minus{
+  top: 18.5rem;
+  left: 62rem;
+}
+
+.seven{
+  left: 32.5rem;
+  top: 24rem;
+}
+
+.eight{
+  left: 42.5rem;
+  top: 24rem;
+}
+
+.nine{
+  left: 52.5rem;
+  top: 24rem;
+}
+
+.multiplication{
+  top: 24rem;
+  left: 62rem;
+}
+
+.percentage{
+  left: 32.5rem;
+  top: 29.5rem;
+
+}
+
+.zero{
+  left: 42.5rem;
+  top: 29.5rem;
+}
+
+.dot{
+  left: 52.5rem;
+  top: 29.5rem;
+}
+
+.division{
+  top: 29.5rem;
+  left: 62rem;
+}
